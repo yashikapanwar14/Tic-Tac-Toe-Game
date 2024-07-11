@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: burlywood;
+    text-align: center;
+}
+
+h1{
+    color: rgb(29, 1, 1);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 8vmin;
+    color: rgb(95, 7, 24);
+    background-color: rgb(247, 237, 224);
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 0.75rem;
+    background-color: rgb(102, 51, 15);
+    color: burlywood;
+    border: 0.1rem solid rgb(40, 2, 40);
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 0.65rem;
+    background-color: rgb(102, 51, 15);
+    color: burlywood;
+    border: 0.1rem solid rgb(40, 2, 40);
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+}
+
+#msg{
+    color: rgb(46, 20, 0);
+    font-size: 10vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide{
+    display: none;
+}
